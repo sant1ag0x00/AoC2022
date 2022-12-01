@@ -19,5 +19,3 @@ def get_caloriecount(topx: int):
     for i in range(topx):
         calorie_sum += final_list.pop()
     print(calorie_sum)
-
-get_caloriecount(3)
