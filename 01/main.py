@@ -1,5 +1,6 @@
+#https://adventofcode.com/2022/day/2
 #function that takes the number of elves from the top as a parameter and returns the sum of their calories
-def get_caloriecount(topx: int):
+def calc_caloriecount(topx: int):
     with open("input.txt") as f:
         lines = f.readlines()
     calorie_sum = 0
